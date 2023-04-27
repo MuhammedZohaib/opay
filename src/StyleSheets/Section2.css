@@ -1,0 +1,40 @@
+.Section2_mainContainer{
+    width: 100vw;
+    height: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top:-4rem;
+}
+.Section2_mainContainer h1{
+    margin-left: 3rem;
+    font-size: 2.5rem;
+    color: #eb8c12;
+
+}
+.Section2_mainContainer p{
+    margin-left: 3rem;
+    color: #4a4a4a;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    width: 45ch;
+}
+.Section2_mainContainer button{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #eb8c12;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    font-weight: 700;
+
+}
+.section2_Img{
+    width: 37rem;
+    position: absolute;
+    right: 0;
+    right: 1rem;
+}

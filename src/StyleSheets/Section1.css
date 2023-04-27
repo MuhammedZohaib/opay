@@ -1,0 +1,93 @@
+.Section1_mainContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../assets/Hero-Section-Background.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+.Section1_Content h1{
+    color: #eb8c12;
+    font-size: 2.6rem;
+    margin-top: 7rem;
+    margin-left: 3rem;
+}
+.Section1_Content p{
+    margin-left: 3rem;
+    color: #4a4a4a;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+.Section1_Content button{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #eb8c12;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+}
+.image_Section{
+    display: flex;
+}
+.section1_Img{
+    width: fit-content;
+}
+#img1{
+    position: relative;
+    right: -12rem;
+}
+#img2{
+    position: relative;
+    right: 3rem;
+    top:2rem;
+}
+.money{
+    color: #4a4a4a;
+}
+.subSection{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100vw;
+    height: 17rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-image: url("../assets/Features-Section.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: 25vw;
+    color: #ffca86;
+    background-size:cover,contain;
+    position: relative;
+    background-color: #202020;
+}
+.subSection img{
+    width: 5rem;
+    z-index: 1000;
+}
+#overlay{
+    position: absolute; 
+    width: 100vw; 
+    height: 17rem; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(32, 32, 32, 0.8); 
+    z-index: 2; 
+}
+.noOverlay{
+    display: flex;
+    width: 100vw;
+    height: 17rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    z-index: 10000;
+}

@@ -1,0 +1,36 @@
+.mainContainer{
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eb8c12;
+}
+.siteLogo{
+    width: 150px;
+    margin: 1rem;
+}
+.buttonContainer{
+    width: 25rem;
+    height: 6rem;
+    height: 10vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.buttonContainer *{
+    background-color: transparent;
+    font-weight: bold;
+    color: #eb8c12;
+    border: none;
+    font-size: 1rem;
+}
+.installAppButton{
+    color: #fff;
+    background-color: #eb8c12;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 3rem;
+}

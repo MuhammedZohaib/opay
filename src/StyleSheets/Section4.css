@@ -1,0 +1,56 @@
+.Section4_mainContainer{
+    width: 100vw;
+    height: 40rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: -6rem;
+}
+.Section4_mainContainer h1{
+    margin-left: 3rem;
+    font-size: 3rem;
+    width: 18ch;
+    color: #eb8c12;
+}
+.Section4_mainContainer p{
+    margin-left: 3rem;
+    color: #4a4a4a;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    width: 45ch;
+}
+.buttons{
+    width: 40rem;
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+.section4_Img{
+    width: 50rem;
+    height: 30rem;
+    position: absolute;
+    right: 0;
+    bottom: -2.45rem;
+}
+.appleButton{
+    background-color: #0b0b08;
+    margin-top: 1rem;
+    color: #fff;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    font-weight: 700;
+}
+.regularButton{
+    background-color: #eb8c12;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    color: #fff;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    font-weight: 700;
+}
